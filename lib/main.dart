@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'namedRoutes.dart';
 import 'fadeAnimation.dart';
-import 'netImage.dart';
+import 'friendlyChat.dart';
 
 /*自定义路由*/
 /*
@@ -22,6 +22,18 @@ void main() => runApp(MaterialApp(
     ));*/
 
 /*网络加载图片*/
-void main() => runApp(MaterialApp(
+/*void main() => runApp(MaterialApp(
       home: MyApp(),
+    ));*/
+
+/*网络加载数据*/
+/*
+void main() => runApp(MyApp(
+      post: fetchPost(),
     ));
+*/
+
+/*聊天*/
+void main() => runApp(
+      FriendlychatApp(),
+    );
